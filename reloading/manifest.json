@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "reloading",
+    "version": "0.1",
+    "description": "auto reloading of a page",
+    "icons": {
+        "16": "images/gray_16.png",
+        "48": "images/gray_48.png",
+        "128": "images/gray_128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/gray_19.png",
+            "38": "images/gray_38.png"
+        },
+        "default_title": "asfresh",
+        "default_popup": "popup.html"
+    },
+    "permissions":[
+        "tabs"
+    ],
+    "background":{
+         "page":"backgroundpage.html"
+    }
+
+}
